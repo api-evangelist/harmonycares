@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://harmonycares.com/.well-known/*
+host: https://harmonycares.com
+note: >-
+  HarmonyCares publishes a public marketing site and patient portal only; no developer/API
+  discovery surface was found. All standard discovery documents returned 404. Absence is a
+  valid, recorded result — no WellKnown pointer is wired.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

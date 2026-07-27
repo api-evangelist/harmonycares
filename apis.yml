@@ -1,9 +1,28 @@
 aid: harmonycares
 name: Harmonycares
-description: Harmonycares is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  HarmonyCares is a physician-led, value-based, in-home primary care organization headquartered in
+  Troy, Michigan, and one of the nation's largest house-call practices. It brings primary care,
+  palliative care, and ancillary services such as in-home laboratory, radiology, and comprehensive
+  health assessments directly to older adults living with serious and complex chronic conditions.
+  Operating across roughly a dozen states, HarmonyCares supports more than 70,000 patients through
+  value-based arrangements with Medicare Advantage plans and Medicare ACO programs. The company was
+  surfaced through the API Evangelist network as a General Catalyst portfolio company; it publishes a
+  public marketing site, a patient portal, and corporate policy documents, but no public developer
+  program, API, or SDK was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/harmonycares/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://harmonycares.com/wp-content/uploads/harmonycares-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Home Health
+- Primary Care
+- Value-Based Care
+- Medicare
+- Palliative Care
+- Telehealth
 apis: []
+common:
+- type: DomainSecurity
+  url: security/harmonycares-domain-security.yml
+- type: Website
+  url: https://harmonycares.com/
+- type: Blog
+  url: https://harmonycares.com/articles/
+- type: Support
+  url: https://harmonycares.com/contact-us/
+- type: Login
+  url: https://harmonycares.com/hcpatient-portal/
+- type: PrivacyPolicy
+  url: https://harmonycares.com/privacy-policy/
+- type: TermsOfService
+  url: https://harmonycares.com/terms-conditions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
