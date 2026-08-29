@@ -11,6 +11,17 @@ description: >-
   public marketing site, a patient portal, and corporate policy documents, but no public developer
   program, API, or SDK was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/harmonycares/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
